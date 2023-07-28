@@ -6,18 +6,24 @@ import Candy from "./Candy";
 import Chips from "./Chips";
 
 
-const VendingMachine = ()=>{
+    const VendingMachine = () => {
 
 
-    return ( 
+        return ( 
      
         <div>
-             <h1> Welcome To The Amazing Vending Machine</h1>
-            {/* <img src="https://i.pinimg.com/originals/4a/79/ff/4a79ffda5125e57996994b4d7297929f.png"></img> */}
-        
-            <Chips/>
-      
-   
+            
+            <BrowserRouter>
+                    <Link to="/cookies"> Cookies </Link>
+                    <Link to="/candy"> Candy </Link>
+                    <Link to="/chips"> Chips</Link>
+                <Routes>
+                    <Route  exact path="/cookies" element={<Cookies />} />
+                    <Route  exact path="/candy" element={<Candy />} />
+                    <Route  exact path="/chips" element={<Chips />} /> 
+                </Routes>
+            </BrowserRouter>
+            <img className="background-image" src="https://e0.pxfuel.com/wallpapers/556/543/desktop-wallpaper-vending-machine-friends-pastel-aesthetic-anime-scenery-aesthetic-background.jpg"></img>
         </div>
     )
 }
