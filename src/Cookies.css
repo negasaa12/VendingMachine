@@ -1,0 +1,68 @@
+
+.cookies-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9e6ff; /* Replace this with the desired background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  }
+
+img {
+    
+    
+   height: 140px;
+    width: 140px;
+    margin:  12px;
+}
+
+h1 {
+
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+
+body {
+    background-color: #f9e6ff; 
+    margin: 0; 
+  }
+  
+button {
+
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #a86aa3; 
+    color: #fff; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+button:hover {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #60478a; 
+  color: #fff; 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+ }
+
+ .link {
+    background-color: rgba(212, 75, 212, 0.7); 
+    padding: 10px; 
+    margin-top: 10px; 
+    color: white; 
+    text-decoration: none; 
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    border-radius: 8px;
+ }
+
