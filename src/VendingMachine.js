@@ -9,22 +9,19 @@ import Chips from "./Chips";
     const VendingMachine = () => {
 
 
-        return ( 
-     
-        <div>
+        return (
+            <div className="VendingMachine" style={{ backgroundImage: `url(${new URL("https://e0.pxfuel.com/wallpapers/556/543/desktop-wallpaper-vending-machine-friends-pastel-aesthetic-anime-scenery-aesthetic-background.jpg")})` }}>
+                
+                <h1 className="VendingMachine-heading"> Welcome To Vending Machine Heaven</h1>
             
-            <BrowserRouter>
-                    <Link to="/cookies"> Cookies </Link>
-                    <Link to="/candy"> Candy </Link>
-                    <Link to="/chips"> Chips</Link>
-                <Routes>
-                    <Route  exact path="/cookies" element={<Cookies />} />
-                    <Route  exact path="/candy" element={<Candy />} />
-                    <Route  exact path="/chips" element={<Chips />} /> 
-                </Routes>
-            </BrowserRouter>
-            <img className="background-image" src="https://e0.pxfuel.com/wallpapers/556/543/desktop-wallpaper-vending-machine-friends-pastel-aesthetic-anime-scenery-aesthetic-background.jpg"></img>
-        </div>
-    )
+                <div className="VendingMachine-links">
+                <h1><Link to="/cookies">Cookies</Link> </h1>
+                <h1><Link to="/candy">Candy</Link></h1>
+                <h1><Link to="/chips">Chips</Link></h1>
+                
+                </div>
+            </div>
+          );
+    
 }
 export default VendingMachine;

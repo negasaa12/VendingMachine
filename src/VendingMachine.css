@@ -1,7 +1,48 @@
 
 
 
-.background-image{
-    width: 100%;
-    border: 2px solid;
-}
+.VendingMachine {
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .VendingMachine-links a {
+    background-color: rgba(212, 75, 212, 0.7); 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    color: white; 
+    text-decoration: none; 
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    border-radius: 8px;
+  }
+
+
+.VendingMachine-links a {
+    margin-bottom: 10px; 
+    margin-right: 100px;
+    color: paleturquoise;
+  }
+
+  
+.VendingMachine-links a:hover {
+    background-color: rgba(128, 0, 128, 1); /* Change the background color on hover for better feedback */
+  }
+
+ .VendingMachine-heading{
+    background-color: rgba(212, 75, 212, 0.7); 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    color: white; 
+    text-decoration: none; 
+    display: flex; 
+    border-radius: 10px;
+    margin-left: 50px;
+
+  }
