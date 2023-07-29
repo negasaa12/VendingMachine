@@ -11,8 +11,9 @@ const Cookies = () => {
   
     return (
       <div>
+
         <h1 class="display-3">COOKIES</h1>
-        <div className="cookies-container">
+        {cookieCount < 6 ?  <div className="cookies-container">
           {/* Use a loop to render the cookies based on the cookieCount */}
           {[...Array(cookieCount)].map((_, index) => (
             <img
@@ -23,7 +24,8 @@ const Cookies = () => {
           ))}
             <button onClick={addCookie}>Add Cookie</button>
             <Link  className="link"to="/"> Come Back</Link>
-        </div>
+        </div> : (<div> <h2> I Think That's Eough, Buddy.</h2> <Link  className="link"to="/"> Come Back</Link> </div>)}
+       
       
       </div>
     );
