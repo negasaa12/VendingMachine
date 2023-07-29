@@ -14,7 +14,7 @@ const Candy = ()=>{
     return(
         <div className="candy-container">
 
-            <h1 class="display-3"> GIVE ME SOME</h1>
+            <h1 className="Candy-h1"> GIVE ME SOME</h1>
 
             {[...Array(candy)].map((_, index)=>(
                 <img

@@ -1,0 +1,25 @@
+
+
+
+
+@keyframes zoom-in {
+    from {
+      transform: scale(0); /* Start with 0 scale (completely zoomed out) */
+    }
+    to {
+      transform: scale(1); /* End with 1 scale (normal size) */
+    }
+  }
+
+  .link{
+    background-color: rgba(212, 75, 212, 0.7); 
+    padding: 10px; 
+    margin-top: 20px; 
+    color: white; 
+    text-decoration: none; 
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    border-radius: 8px;
+
+  }

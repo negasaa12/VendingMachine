@@ -24,7 +24,7 @@ const Cookies = () => {
           ))}
             <button onClick={addCookie}>Add Cookie</button>
             <Link  className="link"to="/"> Come Back</Link>
-        </div> : (<div> <h2> I Think That's Eough, Buddy.</h2> <Link  className="link"to="/"> Come Back</Link> </div>)}
+        </div> : (<div> <h2> I Think That's Enough, Buddy.</h2> <Link  className="link"to="/"> Come Back</Link> </div>)}
        
       
       </div>
